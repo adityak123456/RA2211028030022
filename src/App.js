@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./Pages/HomePage";
 import TopUsersPage from "./Pages/TopUsersPage";
 import TrendingPostsPage from "./Pages/TrendingPostsPage";
-// import FeedPage from "./pages/FeedPage";
+import FeedPage from "./Pages/FeedPage";
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/top-users" element={<TopUsersPage />} />
         <Route path="/trending-posts" element={<TrendingPostsPage />} />
-        {/* <Route path="/feed" element={<FeedPage />} /> */}
+        <Route path="/feed" element={<FeedPage />} />
       </Routes>
     </Router>
   );
